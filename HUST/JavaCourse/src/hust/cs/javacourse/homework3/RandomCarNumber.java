@@ -10,6 +10,7 @@ public class RandomCarNumber {
      *
      * @param args: command param
      */
+
     public static void main(String[] args) {
         final int N = 5;                    //total
         for (int n = 1; n <= N; ++n){
