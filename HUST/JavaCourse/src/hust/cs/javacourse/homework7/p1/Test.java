@@ -8,10 +8,10 @@ public class Test{
         container.add("56");
         container.add("78");
         container.add("9");
-        container.add(10);
+        //container.add(10);
         Iterator it = container.iterator();
         while (it.hasNext()){
-            Object s = it.next();
+            String s = (String) it.next();
             if( s != null)
                 System.out.println(s);
         }

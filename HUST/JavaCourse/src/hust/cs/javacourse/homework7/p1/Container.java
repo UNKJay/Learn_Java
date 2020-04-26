@@ -28,6 +28,6 @@ class Container<T> {
      * @return
      */
     public Iterator iterator(){
-        return new ArrayIterator(elements);
+        return new ArrayIterator<T>(elements);
     }
 }
