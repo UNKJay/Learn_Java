@@ -3,6 +3,7 @@ package hust.cs.javacourse.search.index;
 import hust.cs.javacourse.search.parse.AbstractTermTupleStream;
 
 import java.io.File;
+import java.io.IOException;
 
 /**
  * <pre>

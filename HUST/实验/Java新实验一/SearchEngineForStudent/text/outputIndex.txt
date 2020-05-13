@@ -1,0 +1,21 @@
+docId  to docPath :
+0   ---->   /home/pkj/Learn_Java/HUST/实验/Java新实验一/SearchEngineForStudent/text/1.txt
+1   ---->   /home/pkj/Learn_Java/HUST/实验/Java新实验一/SearchEngineForStudent/text/2.txt
+2   ---->   /home/pkj/Learn_Java/HUST/实验/Java新实验一/SearchEngineForStudent/text/outputIndex.txt
+3   ---->   /home/pkj/Learn_Java/HUST/实验/Java新实验一/SearchEngineForStudent/text/用于检索的测试词.txt
+Term to PostingList :
+aaa ---> {docId: 0,freq: 3,positions: [0, 1, 7]} ---> {docId: 1,freq: 1,positions: [0]}
+bbb ---> {docId: 0,freq: 2,positions: [2, 8]} ---> {docId: 1,freq: 1,positions: [1]}
+ccc ---> {docId: 0,freq: 2,positions: [3, 9]} ---> {docId: 1,freq: 1,positions: [2]}
+circumstances ---> {docId: 3,freq: 1,positions: [2]}
+ddd ---> {docId: 0,freq: 2,positions: [4, 10]} ---> {docId: 1,freq: 1,positions: [3]}
+eee ---> {docId: 0,freq: 2,positions: [5, 11]} ---> {docId: 1,freq: 1,positions: [4]}
+fff ---> {docId: 0,freq: 1,positions: [6]} ---> {docId: 1,freq: 2,positions: [5, 7]}
+ggg ---> {docId: 1,freq: 2,positions: [6, 8]}
+google ---> {docId: 3,freq: 1,positions: [4]}
+government ---> {docId: 3,freq: 1,positions: [3]}
+health ---> {docId: 3,freq: 1,positions: [5]}
+kobe ---> {docId: 3,freq: 1,positions: [10]}
+luxembourg ---> {docId: 3,freq: 1,positions: [6]}
+recognition ---> {docId: 3,freq: 1,positions: [7]}
+wales ---> {docId: 3,freq: 2,positions: [1, 8]}
