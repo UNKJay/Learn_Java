@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4213cc7e-886d-4d43-8cf7-3b6d0767e64d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../JavaCourse/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../JavaCourse/JavaCourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaCourse/JavaCourse.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java程序设计实验报告一(新) .doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../UIDemo/out/production/UIDemo/Demo/NodeStyleRotateDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../UIDemo/out/production/UIDemo/Demo/NodeStyleRotateDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../UIDemo/src/Demo/NodeStyleRotateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../UIDemo/src/Demo/NodeStyleRotateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../UIDemo/src/Demo/ShowGridPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../UIDemo/src/Demo/ShowGridPane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SearchEngineForStudent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngineForStudent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/cs/javacourse/search/index/AbstractDocumentBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/cs/javacourse/search/index/AbstractDocumentBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/cs/javacourse/search/index/AbstractIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/cs/javacourse/search/index/AbstractIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/cs/javacourse/search/index/AbstractIndexBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/cs/javacourse/search/index/AbstractIndexBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/cs/javacourse/search/index/impl/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/cs/javacourse/search/index/impl/Index.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/cs/javacourse/search/parse/AbstractTermTupleStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/cs/javacourse/search/parse/AbstractTermTupleStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/cs/javacourse/search/query/AbstractIndexSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/cs/javacourse/search/query/AbstractIndexSearcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/cs/javacourse/search/run/TestBuildIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/cs/javacourse/search/run/TestBuildIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/cs/javacourse/search/run/TestSearchIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/cs/javacourse/search/run/TestSearchIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/cs/javacourse/search/util/StringSplitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/cs/javacourse/search/util/StringSplitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java新实验二/openjfx-11.0.2_linux-x64_bin-sdk.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/HUST-JAVA-Labs/lab2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/dbExample/test/RemoteSystemsTempFiles" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -116,6 +107,10 @@
       <workItem from="1589250884711" duration="2458000" />
       <workItem from="1589265880251" duration="13235000" />
       <workItem from="1589326343036" duration="20348000" />
+      <workItem from="1589383243074" duration="51000" />
+      <workItem from="1589703168602" duration="910000" />
+      <workItem from="1590244143412" duration="381000" />
+      <workItem from="1590244559569" duration="72000" />
     </task>
     <servers />
   </component>
@@ -127,10 +122,10 @@
       <screen x="0" y="32" width="1920" height="1048" />
     </state>
     <state x="768" y="261" width="374" height="589" key="#com.intellij.ide.util.MemberChooser/0.32.1920.1048@0.32.1920.1048" timestamp="1589292891449" />
-    <state x="675" y="284" width="424" height="484" key="FileChooserDialogImpl" timestamp="1589290265158">
+    <state x="675" y="284" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590244627254">
       <screen x="0" y="32" width="1920" height="1048" />
     </state>
-    <state x="675" y="284" width="424" height="484" key="FileChooserDialogImpl/0.32.1920.1048@0.32.1920.1048" timestamp="1589290265158" />
+    <state x="675" y="284" width="424" height="484" key="FileChooserDialogImpl/0.32.1920.1048@0.32.1920.1048" timestamp="1590244627254" />
     <state width="1870" height="191" key="GridCell.Tab.0.bottom" timestamp="1589380887533">
       <screen x="0" y="32" width="1920" height="1048" />
     </state>

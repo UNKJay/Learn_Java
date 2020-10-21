@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class NodeStyleRotateDemo extends Application {
-    @override
+    //@override
     public void start(Stage primaryStage) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("styleDemo.fxml"));
         StackPane pane = loader.load();

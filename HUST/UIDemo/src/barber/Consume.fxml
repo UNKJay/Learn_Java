@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<SplitPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="396.0" prefWidth="619.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="barber.ConsumeController">
+    <items>
+        <AnchorPane fx:id="pane" minHeight="0.0" minWidth="0.0" prefHeight="320.0" prefWidth="588.0">
+            <children>
+                <Label fx:id="welcomeLabel" layoutX="11.0" layoutY="14.0" prefHeight="27.0" prefWidth="602.0" text="理发店收银系统" textFill="#ae1c87">
+                    <font>
+                        <Font name="Arial" size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="worker2Label" layoutX="20.0" layoutY="166.0" text="发型师类型" AnchorPane.bottomAnchor="211.0" AnchorPane.leftAnchor="20.0">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Label>
+                <Label fx:id="worker2Name" layoutX="299.0" layoutY="163.0" text="发型师姓名" AnchorPane.bottomAnchor="214.0" AnchorPane.rightAnchor="243.0">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Label>
+                <Label layoutX="307.0" layoutY="209.0" text="应付款" AnchorPane.bottomAnchor="168.0" AnchorPane.rightAnchor="250.0">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="feeLabel" disable="true" editable="false" layoutX="376.0" layoutY="204.0" prefHeight="27.0" prefWidth="186.0" AnchorPane.bottomAnchor="162.0" AnchorPane.rightAnchor="55.0" />
+                <Label layoutX="35.0" layoutY="209.0" text="充值金额" AnchorPane.bottomAnchor="168.0" AnchorPane.leftAnchor="35.0">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Label>
+                <Label layoutX="314.0" layoutY="116.0" text="学徒姓名" AnchorPane.bottomAnchor="261.0" AnchorPane.rightAnchor="243.0">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Label>
+                <Button fx:id="payButton" layoutX="97.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#onPayClick" prefHeight="30.0" prefWidth="186.0" style="-fx-background-color: #ae1c87;" text="付款" textFill="#eeeaea" AnchorPane.bottomAnchor="64.0">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </Button>
+                <TextField fx:id="inputMoney" disable="true" editable="false" layoutX="101.0" layoutY="202.0" prefHeight="30.0" prefWidth="186.0" promptText="满100送20" />
+                <Button fx:id="exitButton" layoutX="376.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#onExitButtonClick" prefHeight="30.0" prefWidth="186.0" style="-fx-background-color: #ae1c87;" text="退出" textFill="#fcfcfc">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </Button>
+            <ComboBox fx:id="inputType2" editable="true" layoutX="101.0" layoutY="157.0" prefHeight="30.0" prefWidth="186.0" promptText="发型师类型" />
+            <ComboBox fx:id="inputWorker1" editable="true" layoutX="376.0" layoutY="109.0" prefHeight="30.0" prefWidth="186.0" promptText="学徒姓名" />
+            <ComboBox fx:id="inputWorker2" editable="true" layoutX="376.0" layoutY="155.0" prefHeight="30.0" prefWidth="186.0" promptText="发型师姓名" />
+            <Label fx:id="statusLabel" layoutX="36.0" layoutY="345.0" />
+            <RadioButton fx:id="type0" layoutX="144.0" layoutY="116.0" mnemonicParsing="false" text="洗发">
+               <toggleGroup>
+                  <ToggleGroup fx:id="type" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="type1" layoutX="20.0" layoutY="116.0" mnemonicParsing="false" text="洗剪吹" toggleGroup="$type" />
+            <RadioButton fx:id="type2" layoutX="218.0" layoutY="116.0" mnemonicParsing="false" text="充值" toggleGroup="$type" />
+            </children></AnchorPane>
+    </items>
+</SplitPane>

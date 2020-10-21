@@ -1,0 +1,9 @@
+#btnOK{
+    -fx-border-color: blue;
+}
+
+#stackPane {
+    -fx-border-color: red;
+    -fx-background-color: gray;
+    -fx-rotate: -45;
+}

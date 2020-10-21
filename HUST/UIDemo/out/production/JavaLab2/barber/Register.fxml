@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="barber.RegisterController">
+    <children>
+        <Label layoutX="203.0" layoutY="14.0" text="感谢您的信任" textFill="#2676d5">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="statusLabel1" layoutX="36.0" layoutY="345.0" />
+        <Button fx:id="registerButton" layoutX="186.0" layoutY="321.0" mnemonicParsing="false" onMouseClicked="#onRegisterClick" prefHeight="36.0" prefWidth="121.0" style="-fx-background-color: #2676d5;" text="确认" textFill="WHITE" />
+        <TextField fx:id="inputUsername" layoutX="186.0" layoutY="102.0" prefHeight="36.0" prefWidth="288.0" promptText="请输入您的姓名" />
+        <PasswordField fx:id="inputPassword" layoutX="186.0" layoutY="156.0" prefHeight="36.0" prefWidth="288.0" promptText="请输入密码" />
+        <Label layoutX="127.0" layoutY="107.0" text="姓名" textAlignment="RIGHT">
+            <font>
+                <Font size="20.0" />
+            </font></Label>
+        <Label layoutX="127.0" layoutY="161.0" text="密码" textAlignment="RIGHT">
+            <font>
+                <Font size="20.0" />
+            </font></Label>
+        <Label layoutX="260.0" layoutY="369.0" prefHeight="17.0" prefWidth="111.0" text="Copyright@PKJ">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+      <PasswordField fx:id="inputPassword1" layoutX="186.0" layoutY="209.0" prefHeight="36.0" prefWidth="288.0" promptText="请再次输入密码" />
+      <Label layoutX="87.0" layoutY="214.0" text="确认密码" textAlignment="RIGHT">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="127.0" layoutY="260.0" text="充值" textAlignment="RIGHT">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="exitButton" layoutX="335.0" layoutY="321.0" mnemonicParsing="false" onMouseClicked="#onExitClick" prefHeight="36.0" prefWidth="121.0" style="-fx-background-color: #2676d5;" text="返回" textFill="WHITE" />
+      <TextField fx:id="inputCharge" layoutX="186.0" layoutY="260.0" prefHeight="36.0" prefWidth="288.0" promptText="充100送20" />
+
+    </children>
+</AnchorPane>
